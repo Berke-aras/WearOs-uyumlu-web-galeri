@@ -6,7 +6,7 @@
         <title>Responsive Image Gallery</title>
         <link rel="stylesheet" href="style.css" />
         <style>
-            /* General Reset */
+            /* Genel Reset */
             * {
                 margin: 0;
                 padding: 0;
@@ -18,38 +18,36 @@
                 background-color: #000;
                 color: #fff;
                 text-align: center;
-                padding: 1em;
             }
 
             header h1 {
-                font-size: 1.8em;
-                margin-bottom: 1em;
-                color: #fff;
+                font-size: 1.2em;
+                margin-bottom: 0.5em;
             }
 
-            /* Gallery Styles */
+            /* Galeri Tasarımı */
             .gallery {
                 display: grid;
-                grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-                gap: 1em;
-                max-width: 500px;
+                grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+                gap: 0.5em;
                 margin: 0 auto;
+                padding: 0.5em;
+                max-width: 320px; /* Wear OS saat ekran boyutları */
             }
 
             .gallery-item img {
                 width: 100%;
                 height: auto;
-                border-radius: 10px;
-                transition: transform 0.3s ease, box-shadow 0.3s ease;
-                box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
+                border-radius: 8px;
+                transition: transform 0.2s ease;
+                border: 2px solid #fff;
             }
 
-            .gallery-item img:hover {
-                transform: scale(1.05);
-                box-shadow: 0 6px 8px rgba(255, 255, 255, 0.2);
+            .gallery-item img:active {
+                transform: scale(1.1);
             }
 
-            /* Lightbox Modal */
+            /* Lightbox Tasarımı */
             #lightbox {
                 position: fixed;
                 top: 0;
@@ -67,7 +65,6 @@
                 max-width: 90%;
                 max-height: 90%;
                 border-radius: 10px;
-                box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
             }
 
             #lightbox.hidden {
@@ -76,23 +73,23 @@
 
             #close {
                 position: absolute;
-                top: 20px;
-                right: 20px;
+                top: 10px;
+                right: 10px;
                 color: #fff;
-                font-size: 2em;
+                font-size: 1.5em;
                 cursor: pointer;
-                user-select: none;
-                font-weight: bold;
             }
 
-            /* Media Queries */
-            @media (max-width: 480px) {
+            /* Wear OS için Medya Sorguları */
+            @media (max-width: 320px) {
                 header h1 {
-                    font-size: 1.5em;
+                    font-size: 1em;
                 }
+
                 .gallery {
-                    gap: 0.5em;
+                    gap: 0.3em;
                 }
+
                 .gallery-item img {
                     border-radius: 5px;
                 }
@@ -230,13 +227,11 @@
         </div>
 
         <script>
-            // Select necessary elements
             const lightbox = document.getElementById("lightbox");
             const lightboxImg = document.getElementById("lightbox-img");
             const closeBtn = document.getElementById("close");
             const galleryItems = document.querySelectorAll(".gallery-item img");
 
-            // Open lightbox on image click
             galleryItems.forEach((img) => {
                 img.addEventListener("click", () => {
                     lightboxImg.src = img.src;
@@ -244,12 +239,10 @@
                 });
             });
 
-            // Close lightbox on 'X' click
             closeBtn.addEventListener("click", () => {
                 lightbox.classList.add("hidden");
             });
 
-            // Close lightbox on outside click
             lightbox.addEventListener("click", (e) => {
                 if (e.target === lightbox) {
                     lightbox.classList.add("hidden");
