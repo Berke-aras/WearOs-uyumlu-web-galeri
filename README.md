@@ -9,20 +9,6 @@ This repository contains a simple, responsive image gallery web application desi
 - **Touch Interaction:** Includes a scaling effect on image touch/click for a more interactive experience.
 - **Wear OS Optimized:** Designed to fit the compact screen dimensions of Wear OS devices.
 
-## Demo
-
-### Gallery View
-![Gallery View](https://via.placeholder.com/320x480?text=Gallery+View)
-> *Replace the placeholder image with an animated GIF or screenshot of your gallery in action.*
-
-### Lightbox Modal
-![Lightbox Modal](https://via.placeholder.com/320x480?text=Lightbox+Modal)
-> *Replace the placeholder image with an animated GIF or screenshot demonstrating the lightbox functionality.*
-
-### Animated Interaction Demo
-![Animated Demo](https://via.placeholder.com/320x480?text=Animated+Demo)
-> *This animated GIF should show how images scale and the lightbox opens when tapped. Replace with your actual demo GIF.*
-
 ## Getting Started
 
 ### Installation
