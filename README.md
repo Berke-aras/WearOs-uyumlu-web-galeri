@@ -14,13 +14,6 @@ Bu proje, Wear OS cihazları için optimize edilmiş, duyarlı bir resim galeris
 
 ⚡ Hafif ve Hızlı: Basit HTML, CSS ve JavaScript ile geliştirilmiştir.
 
-📂 Dosya Yapısı
-
-📁 Project Root
-├── 📄 index.html  # Ana HTML dosyası
-├── 📁 images      # Görsellerin bulunduğu klasör
-└── 📄 README.md   # Proje açıklaması
-
 📷 Kullanım
 
 Projeyi klonlayın:
