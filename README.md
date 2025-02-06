@@ -18,8 +18,6 @@ Bu proje, Wear OS cihazları için optimize edilmiş, duyarlı bir resim galeris
 
 📁 Project Root
 ├── 📄 index.html  # Ana HTML dosyası
-├── 🎨 style.css   # Galeri için CSS dosyası
-├── 📜 script.js   # Lightbox işlevselliğini sağlayan JS dosyası
 ├── 📁 images      # Görsellerin bulunduğu klasör
 └── 📄 README.md   # Proje açıklaması
 
