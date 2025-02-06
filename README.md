@@ -15,29 +15,29 @@ Bu proje, **Wear OS cihazları** için optimize edilmiş, duyarlı bir resim gal
 
 
 
-#📷 Kullanım
+# 📷 Kullanım
 
-Projeyi klonlayın:
+- Projeyi klonlayın:
 
-git clone https://github.com/kullanici/responsive-image-gallery.git
+- git clone https://github.com/kullanici/responsive-image-gallery.git
 
-index.html dosyasını bir tarayıcıda açın.
+- index.html dosyasını bir tarayıcıda açın.
 
-Görsellerin üzerine tıklayarak büyütülmüş şekilde görüntüleyin.
+- Görsellerin üzerine tıklayarak büyütülmüş şekilde görüntüleyin.
 
-#🎭 Önizleme
-https://berke-aras.github.io/WearOs-uyumlu-web-galeri/
+# 🎭 Önizleme
+- https://berke-aras.github.io/WearOs-uyumlu-web-galeri/
 
 
-#📌 Geliştirme
+# 📌 Geliştirme
 
-Yeni resimler eklemek için images/ klasörüne görselleri koyup index.html içinde ilgili bölüme <img> etiketiyle ekleyebilirsiniz.
+- Yeni resimler eklemek için images/ klasörüne görselleri koyup index.html içinde ilgili bölüme <img> etiketiyle ekleyebilirsiniz.
 
-CSS dosyasını düzenleyerek galeri tasarımını değiştirebilirsiniz.
+- CSS dosyasını düzenleyerek galeri tasarımını değiştirebilirsiniz.
 
-#📜 Lisans
+# 📜 Lisans
 
-Bu proje MIT lisansı altındadır.
+- Bu proje MIT lisansı altındadır.
 
-#💖 Projeyi beğendiyseniz ⭐ vererek destek olabilirsiniz!
+## 💖 Projeyi beğendiyseniz ⭐ vererek destek olabilirsiniz!
 
