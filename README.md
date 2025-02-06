@@ -1,81 +1,51 @@
-Bu depo, Wear OS akıllı saatler gibi küçük ekranlı cihazlar için optimize edilmiş basit ve duyarlı bir resim galeri web uygulamasını içermektedir. Uygulama, CSS Grid kullanılarak düzenlenmiş, lightbox modal (büyütme) özelliğine sahip ve dokunmatik etkileşimler için animasyonlar içermektedir.
+📸 Responsive Image Gallery
 
-## Özellikler
 
-- **Duyarlı Tasarım:** CSS Grid ve medya sorguları kullanılarak küçük ekranlara uyum sağlayacak şekilde tasarlanmıştır.
-- **Lightbox Modal:** Herhangi bir resme tıkladığınızda, resmi büyütülmüş bir lightbox üzerinde görüntüleyebilirsiniz.
-- **Dokunmatik Etkileşim:** Resme dokunulduğunda ölçeklendirme animasyonu ile etkileşim deneyimi geliştirilmiştir.
-- **Wear OS Uyumlu:** Wear OS gibi küçük ekran boyutlarına sahip cihazlarda optimal görüntüleme sağlamak için tasarlanmıştır.
 
-## Demo
+Bu proje, Wear OS cihazları için optimize edilmiş, duyarlı bir resim galerisi uygulamasıdır. Kullanıcılar küçük boyutlu ekranlarda bile rahatça görselleri inceleyebilir ve üzerine tıklayarak büyütebilirler.
 
-### Galeri Görünümü
+🚀 Özellikler
 
-Aşağıdaki GIF, galeri görünümünü göstermektedir.  
-*(Buraya galeri görünümünü gösteren animasyonlu GIF'in URL'sini ekleyin.)*
+📱 Wear OS Uyumlu: Küçük ekran boyutlarına uygun olarak tasarlandı.
 
-![Galeri Görünümü](https://your-image-url.com/gallery-demo.gif)
+🎨 Şık ve Karanlık Tasarım: Siyah arka plan ve beyaz kenarlıklı görsellerle estetik bir görünüm.
 
-### Lightbox Modal
+🔍 Lightbox Desteği: Görsellere tıklayınca büyüterek görüntüleme imkanı.
 
-Aşağıdaki GIF, lightbox modal'ın nasıl çalıştığını göstermektedir.  
-*(Buraya lightbox modal işlevini gösteren animasyonlu GIF'in URL'sini ekleyin.)*
+⚡ Hafif ve Hızlı: Basit HTML, CSS ve JavaScript ile geliştirilmiştir.
 
-![Lightbox Modal](https://your-image-url.com/lightbox-demo.gif)
+📂 Dosya Yapısı
 
-### Animasyonlu Etkileşim
+📁 Project Root
+├── 📄 index.html  # Ana HTML dosyası
+├── 🎨 style.css   # Galeri için CSS dosyası
+├── 📜 script.js   # Lightbox işlevselliğini sağlayan JS dosyası
+├── 📁 images      # Görsellerin bulunduğu klasör
+└── 📄 README.md   # Proje açıklaması
 
-Aşağıdaki GIF, resme dokunulduğunda gerçekleşen animasyonlu etkileşimi göstermektedir.  
-*(Buraya dokunmatik etkileşim animasyonunu gösteren animasyonlu GIF'in URL'sini ekleyin.)*
+📷 Kullanım
 
-![Animasyonlu Etkileşim](https://your-image-url.com/interaction-demo.gif)
+Projeyi klonlayın:
 
-## Başlangıç
+git clone https://github.com/kullanici/responsive-image-gallery.git
 
-### Kurulum
+index.html dosyasını bir tarayıcıda açın.
 
-1. **Depoyu klonlayın:**
+Görsellerin üzerine tıklayarak büyütülmüş şekilde görüntüleyin.
 
-   \`\`\`bash
-   git clone https://github.com/kullaniciadiniz/wearos-gallery.git
-   \`\`\`
+🎭 Önizleme
 
-2. **Proje dizinine geçin:**
 
-   \`\`\`bash
-   cd wearos-gallery
-   \`\`\`
 
-3. **Uygulamayı açın:**
-   - \`index.html\` dosyasını tarayıcınızda açarak galeriyi görüntüleyebilirsiniz.
-   - Alternatif olarak, klasörü statik sunucu ile çalıştırabilirsiniz (örneğin, VS Code için [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) eklentisini kullanarak).
+📌 Geliştirme
 
-### Dosya Yapısı
+Yeni resimler eklemek için images/ klasörüne görselleri koyup index.html içinde ilgili bölüme <img> etiketiyle ekleyebilirsiniz.
 
-\`\`\`
-.
-├── index.html         # Galeri ve lightbox modal kodlarını içeren ana HTML dosyası
-├── style.css          # (Opsiyonel) Ek stil düzenlemeleri için harici CSS dosyası (CSS kodları index.html'e gömülü olarak da bulunabilir)
-├── images/            # Galeri için kullanılan resim dosyalarının bulunduğu dizin
-└── README.md          # Proje dokümantasyonu
-\`\`\`
+CSS dosyasını düzenleyerek galeri tasarımını değiştirebilirsiniz.
 
-## Özelleştirme
+📜 Lisans
 
-- **Resimler:** \`images/\` dizinindeki resimleri kendi resimlerinizle değiştirebilirsiniz. HTML'deki \`<img>\` etiketlerindeki \`src\` özniteliklerini güncellemeyi unutmayın.
-- **Stiller:** CSS kodlarını \`index.html\` içerisinden \`style.css\` dosyasına taşıyabilir veya doğrudan düzenleyebilirsiniz.
-- **Animasyonlar:** CSS \`transition\` özelliklerini düzenleyerek resimlerin ölçeklendirme animasyonlarını ihtiyacınıza göre özelleştirebilirsiniz.
+Bu proje MIT lisansı altındadır.
 
-## Katkıda Bulunma
+💖 Projeyi beğendiyseniz ⭐ vererek destek olabilirsiniz!
 
-Katkılarınız memnuniyetle karşılanır! Öneri, hata raporu veya iyileştirme için pull request gönderebilirsiniz.
-
-## Lisans
-
-Bu proje [MIT Lisansı](LICENSE) kapsamında lisanslanmıştır.
-
-## Teşekkür
-
-- Bu proje, küçük ekranlı cihazlar için minimal ve verimli tasarım gereksinimlerinden ilham alınarak geliştirilmiştir.
-- Açık kaynak topluluğuna, projeyi geliştirmemde yardımcı olan kaynaklar ve araçlar için teşekkür ederim.
-`;
