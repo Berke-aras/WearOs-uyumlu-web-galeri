@@ -2,17 +2,22 @@
 
 
 
-Bu proje, Wear OS cihazları için optimize edilmiş, duyarlı bir resim galerisi uygulamasıdır. Kullanıcılar küçük boyutlu ekranlarda bile rahatça görselleri inceleyebilir ve üzerine tıklayarak büyütebilirler.
+# 📸 Responsive Image Gallery
 
-🚀 Özellikler
+![Anime Girl](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZnUzc3gxMW0yNjF2ZGxwN2E1MW4wc2FieGR5aXBnOWZvd3hxa2VzZyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/EvYHHSntaIl5m/giphy.gif)
 
-📱 Wear OS Uyumlu: Küçük ekran boyutlarına uygun olarak tasarlandı.
+Bu proje, **Wear OS cihazları** için optimize edilmiş, duyarlı bir resim galerisi uygulamasıdır. Kullanıcılar küçük boyutlu ekranlarda bile rahatça görselleri inceleyebilir ve üzerine tıklayarak büyütebilirler. 
 
-🎨 Şık ve Karanlık Tasarım: Siyah arka plan ve beyaz kenarlıklı görsellerle estetik bir görünüm.
+## 🚀 Özellikler
+- 📱 **Wear OS Uyumlu**: Küçük ekran boyutlarına uygun olarak tasarlandı.
+- 🎨 **Şık ve Karanlık Tasarım**: Siyah arka plan ve beyaz kenarlıklı görsellerle estetik bir görünüm.
+- 🔍 **Lightbox Desteği**: Görsellere tıklayınca büyüterek görüntüleme imkanı.
+- ⚡ **Hafif ve Hızlı**: Basit HTML, CSS ve JavaScript ile geliştirilmiştir.
 
-🔍 Lightbox Desteği: Görsellere tıklayınca büyüterek görüntüleme imkanı.
+![Anime Girl Gallery](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWl3aDkzYXNyMXc1NmdtOTg0bHRod3g0N3dzOWQ1bDg1MThwZG03diZlcD12MV9naWZzX3NlYXJjaCZjdD1n/QpVUMRUJGokfqXyfa1/giphy.gif)
 
-⚡ Hafif ve Hızlı: Basit HTML, CSS ve JavaScript ile geliştirilmiştir.
+
+
 
 📷 Kullanım
 
@@ -25,7 +30,7 @@ index.html dosyasını bir tarayıcıda açın.
 Görsellerin üzerine tıklayarak büyütülmüş şekilde görüntüleyin.
 
 🎭 Önizleme
-
+https://berke-aras.github.io/WearOs-uyumlu-web-galeri/
 
 
 📌 Geliştirme
